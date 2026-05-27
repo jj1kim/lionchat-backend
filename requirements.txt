@@ -1,0 +1,12 @@
+Django==5.0.1
+django-cors-headers==4.7.0
+django-environ==0.11.2
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
+gunicorn==21.2.0
+PyJWT==2.8.0
+google-generativeai>=0.8
+
+# 배포(RDS MySQL) 시 추가 — 가이드 4-d step 2:
+# sudo apt install pkg-config libmysqlclient-dev
+# pip install mysqlclient
